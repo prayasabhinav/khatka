@@ -23,7 +23,7 @@ It learns from `data/clash-votes.jsonl`. For 720 pairs, three readers, each a se
 
 Measured on pairs held out of fitting: Brier score 0.0116, and a correlation of 0.80 with the readers' share. Where it put a pair near 85%, readers said no 81% of the time.
 
-It follows the [NSM syntax](https://syntax.prayasabhinav.net/nsm/), as one of the NSMs (Narrow Small Models) listed in [ungli](https://ungli.syntax.prayasabhinav.net): it scores, reads numbers, answers with a number, starts from nothing and learns from another model's labels.
+It follows the [NSM syntax](https://syntax.prayasabhinav.net/nsm/), as one of the NSMs (Narrow Small Models) listed in [ungli](https://ungli.syntax.prayasabhinav.net): it scores, reads numbers, answers with a number, starts from nothing and learns from another model's labels. NSM here stands for Narrow Small Model. It is not the Natural Semantic Metalanguage, Anna Wierzbicka's framework in linguistics.
 
 ## Use
 
