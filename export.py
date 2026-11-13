@@ -16,4 +16,11 @@ json.dump({"core": [{"id": b["id"], "name": b["display"]} for b in DIMENSIONS[0]
 json.dump(sorted(map(list, seen_pairs())), open(f"{OUT}/known-pairs.json", "w"), indent=0)
 for f in ("properties.json", "clash-votes.jsonl", "keys.jsonl"):
     shutil.copy(f"review-model/{f}", f"{OUT}/{f}")
+# the labels on its uncertain pairs, with whether a source's copied words were found (review-model/label-eval.py --check)
+found = json.load(open("review-model/source-labels-checked.json"))
+with open(f"{OUT}/new-labels.jsonl", "w") as f:
+    for name in sorted(__import__("glob").glob("review-model/source-labels-*.jsonl")):
+        for r in map(json.loads, open(name)):
+            if r["label"] in ("holds", "clashes"):
+                f.write(json.dumps({"pair": r["pair"], "label": r["label"], "settled": bool(found.get(r["pair"])), "basis": r["basis"], "source": r.get("stem", ""), "page": r.get("page", ""), "words": r.get("words", ""), "reason": r.get("reason", "")}, ensure_ascii=False) + "\n")
 print("wrote", sorted(os.listdir(OUT)))

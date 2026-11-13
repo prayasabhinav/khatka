@@ -66,7 +66,14 @@ def flag(c, b):
     return "" if (c, b) in SEEN else reason(c, b)
 
 
-labelled = VOTES | {p: int(k == "r") for p, (k, by) in KEYS.items() if by == "Prayas" and k != "?"}
+# Labels on the pairs khatka was unsure of, from the books, research papers and logical inference (data/new-labels.jsonl,
+# 13 November 2026): one settled by a source counts as 0 or 1 and outranks the readers' votes; one by inference counts for a
+# pair nobody voted on, weighted by how often one reader agreed with the three readers' majority.
+NEW = {tuple(r["pair"].split("+")): (int(r["label"] == "clashes"), r["settled"]) for r in lines("new-labels.jsonl")}
+both = [p for p in NEW if p in VOTES and VOTES[p] != 0.5]
+REL = sum(NEW[p][0] == (VOTES[p] > 0.5) for p in both) / len(both)
+NEW_LABELS = {p: float(y) for p, (y, src) in NEW.items() if src} | {p: (REL if y else 1 - REL) for p, (y, src) in NEW.items() if not src and p not in VOTES}
+labelled = VOTES | NEW_LABELS | {p: int(k == "r") for p, (k, by) in KEYS.items() if by == "Prayas" and k != "?"}
 W = fit([(features(*p), y) for p, y in labelled.items()])
 
 if __name__ == "__main__":
