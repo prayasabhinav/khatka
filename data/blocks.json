@@ -1,0 +1,689 @@
+{
+ "core": [
+  {
+   "id": "roll-and-move",
+   "name": "roll and move"
+  },
+  {
+   "id": "drafting",
+   "name": "drafting"
+  },
+  {
+   "id": "bidding",
+   "name": "bidding"
+  },
+  {
+   "id": "push-your-luck",
+   "name": "push your luck"
+  },
+  {
+   "id": "area-control",
+   "name": "area control"
+  },
+  {
+   "id": "worker-placement",
+   "name": "worker placement"
+  },
+  {
+   "id": "pattern-building",
+   "name": "pattern building"
+  },
+  {
+   "id": "hand-management",
+   "name": "hand management"
+  },
+  {
+   "id": "trick-taking",
+   "name": "trick-taking"
+  },
+  {
+   "id": "negotiation",
+   "name": "negotiation"
+  },
+  {
+   "id": "set-collection",
+   "name": "set collection"
+  },
+  {
+   "id": "tile-placement",
+   "name": "tile placement"
+  },
+  {
+   "id": "call-and-response",
+   "name": "call and response"
+  },
+  {
+   "id": "playing-in-silence",
+   "name": "playing in silence"
+  },
+  {
+   "id": "change-the-rules",
+   "name": "change the rules"
+  },
+  {
+   "id": "role-play",
+   "name": "role-play"
+  },
+  {
+   "id": "dexterity",
+   "name": "dexterity"
+  },
+  {
+   "id": "drawing-the-map",
+   "name": "drawing the map"
+  },
+  {
+   "id": "ask-for-cards",
+   "name": "ask for what they hold"
+  },
+  {
+   "id": "bet-against-the-bank",
+   "name": "bet against the bank"
+  },
+  {
+   "id": "betting-on-a-throw",
+   "name": "betting on a throw"
+  },
+  {
+   "id": "betting-on-your-hand",
+   "name": "betting on your hand"
+  },
+  {
+   "id": "build-your-own-side",
+   "name": "build your own side"
+  },
+  {
+   "id": "calling-a-contract",
+   "name": "calling a contract"
+  },
+  {
+   "id": "capture-and-convert",
+   "name": "capture and convert"
+  },
+  {
+   "id": "capture-and-rescue",
+   "name": "capture and rescue"
+  },
+  {
+   "id": "capture-by-surrounding",
+   "name": "capture by surrounding"
+  },
+  {
+   "id": "catch-up-help",
+   "name": "catch-up help"
+  },
+  {
+   "id": "chance-alone-decides",
+   "name": "chance alone decides"
+  },
+  {
+   "id": "chase-and-tag",
+   "name": "chase and tag"
+  },
+  {
+   "id": "choose-your-target",
+   "name": "choose your target"
+  },
+  {
+   "id": "connection",
+   "name": "connecting across the board"
+  },
+  {
+   "id": "counter-cycle",
+   "name": "counter cycle"
+  },
+  {
+   "id": "declaring-combinations",
+   "name": "declaring combinations"
+  },
+  {
+   "id": "different-powers",
+   "name": "different powers for each player"
+  },
+  {
+   "id": "doubling-the-stakes",
+   "name": "doubling the stakes"
+  },
+  {
+   "id": "forced-capture",
+   "name": "forced capture"
+  },
+  {
+   "id": "grow-stronger",
+   "name": "grow stronger over time"
+  },
+  {
+   "id": "growing-list",
+   "name": "a list that keeps growing"
+  },
+  {
+   "id": "handicap",
+   "name": "handicap"
+  },
+  {
+   "id": "hide-and-find",
+   "name": "hide and find"
+  },
+  {
+   "id": "jumping-over-pieces",
+   "name": "jumping over pieces"
+  },
+  {
+   "id": "keep-and-reroll",
+   "name": "keep some dice and roll the rest"
+  },
+  {
+   "id": "landing-sends-back",
+   "name": "landing sends a piece back"
+  },
+  {
+   "id": "make-a-row-take-a-piece",
+   "name": "make a row and take a piece"
+  },
+  {
+   "id": "making-words",
+   "name": "making words from letters"
+  },
+  {
+   "id": "matching-open-ends",
+   "name": "matching the open ends"
+  },
+  {
+   "id": "melding",
+   "name": "melding"
+  },
+  {
+   "id": "one-use-powers",
+   "name": "one-use powers"
+  },
+  {
+   "id": "other-player-has-a-say",
+   "name": "the other player has a say"
+  },
+  {
+   "id": "passing-a-message",
+   "name": "passing a message along"
+  },
+  {
+   "id": "passing-cards",
+   "name": "passing cards"
+  },
+  {
+   "id": "pie-rule",
+   "name": "pie rule"
+  },
+  {
+   "id": "promotion",
+   "name": "promotion"
+  },
+  {
+   "id": "relay",
+   "name": "relay"
+  },
+  {
+   "id": "safe-shape",
+   "name": "a shape that cannot be captured"
+  },
+  {
+   "id": "scoring-cards",
+   "name": "scoring cards named in advance"
+  },
+  {
+   "id": "shared-cards",
+   "name": "shared cards in the middle"
+  },
+  {
+   "id": "shared-pot",
+   "name": "shared pot"
+  },
+  {
+   "id": "sowing-seeds",
+   "name": "sowing seeds"
+  },
+  {
+   "id": "spare-hand",
+   "name": "spare hand"
+  },
+  {
+   "id": "special-squares",
+   "name": "special squares"
+  },
+  {
+   "id": "spend-to-use",
+   "name": "spend to use"
+  },
+  {
+   "id": "split-your-forces",
+   "name": "split your forces"
+  },
+  {
+   "id": "stop-on-a-signal",
+   "name": "stop on a signal"
+  },
+  {
+   "id": "swapping-cards",
+   "name": "swapping cards for new ones"
+  },
+  {
+   "id": "taking-the-pile",
+   "name": "taking the discard pile"
+  },
+  {
+   "id": "trump-suit",
+   "name": "trump suit"
+  },
+  {
+   "id": "two-games-at-once",
+   "name": "two games at once"
+  },
+  {
+   "id": "wild-cards",
+   "name": "wild cards"
+  },
+  {
+   "id": "wraparound-board",
+   "name": "wraparound board"
+  },
+  {
+   "id": "yes-or-no-questions",
+   "name": "yes-or-no questions"
+  }
+ ],
+ "partners": [
+  {
+   "id": "race-to-finish",
+   "name": "race to finish",
+   "slot": "Victory condition"
+  },
+  {
+   "id": "most-points",
+   "name": "most points",
+   "slot": "Victory condition"
+  },
+  {
+   "id": "last-standing",
+   "name": "last standing",
+   "slot": "Victory condition"
+  },
+  {
+   "id": "cooperative-survival",
+   "name": "cooperative survival",
+   "slot": "Victory condition"
+  },
+  {
+   "id": "shared-objective",
+   "name": "shared objective",
+   "slot": "Victory condition"
+  },
+  {
+   "id": "hidden-personal-goal",
+   "name": "hidden personal goal",
+   "slot": "Victory condition"
+  },
+  {
+   "id": "narrative-completion",
+   "name": "narrative completion",
+   "slot": "Victory condition"
+  },
+  {
+   "id": "no-objective",
+   "name": "no objective",
+   "slot": "Victory condition"
+  },
+  {
+   "id": "set-your-own-goal",
+   "name": "set your own goal",
+   "slot": "Victory condition"
+  },
+  {
+   "id": "one-loser",
+   "name": "one loser",
+   "slot": "Victory condition"
+  },
+  {
+   "id": "keep-the-game-going",
+   "name": "keep the game going",
+   "slot": "Victory condition"
+  },
+  {
+   "id": "cannot-be-won",
+   "name": "cannot be won",
+   "slot": "Victory condition"
+  },
+  {
+   "id": "beat-the-layout",
+   "name": "beat the layout",
+   "slot": "Victory condition"
+  },
+  {
+   "id": "best-of-several-games",
+   "name": "best of several games",
+   "slot": "Victory condition"
+  },
+  {
+   "id": "fewest-points",
+   "name": "fewest points",
+   "slot": "Victory condition"
+  },
+  {
+   "id": "finish-on-exact-number",
+   "name": "finish on an exact number",
+   "slot": "Victory condition"
+  },
+  {
+   "id": "play-to-lose",
+   "name": "play to lose",
+   "slot": "Victory condition"
+  },
+  {
+   "id": "solo-in-parallel",
+   "name": "solo in parallel",
+   "slot": "Player interaction"
+  },
+  {
+   "id": "direct-confrontation",
+   "name": "direct confrontation",
+   "slot": "Player interaction"
+  },
+  {
+   "id": "indirect-via-board",
+   "name": "indirect via board",
+   "slot": "Player interaction"
+  },
+  {
+   "id": "fully-cooperative",
+   "name": "fully cooperative",
+   "slot": "Player interaction"
+  },
+  {
+   "id": "semi-cooperative",
+   "name": "semi-cooperative",
+   "slot": "Player interaction"
+  },
+  {
+   "id": "team-vs-team",
+   "name": "team vs team",
+   "slot": "Player interaction"
+  },
+  {
+   "id": "traitor",
+   "name": "traitor",
+   "slot": "Player interaction"
+  },
+  {
+   "id": "playing-by-letter",
+   "name": "playing by letter",
+   "slot": "Player interaction"
+  },
+  {
+   "id": "absent-player",
+   "name": "absent player",
+   "slot": "Player interaction"
+  },
+  {
+   "id": "game-master",
+   "name": "game master",
+   "slot": "Player interaction"
+  },
+  {
+   "id": "public-game",
+   "name": "public game",
+   "slot": "Player interaction"
+  },
+  {
+   "id": "one-against-the-rest",
+   "name": "one against the rest",
+   "slot": "Player interaction"
+  },
+  {
+   "id": "playing-alone",
+   "name": "playing alone",
+   "slot": "Player interaction"
+  },
+  {
+   "id": "mostly-chance",
+   "name": "mostly chance",
+   "slot": "Chance or skill"
+  },
+  {
+   "id": "chance-with-mitigation",
+   "name": "chance with mitigation",
+   "slot": "Chance or skill"
+  },
+  {
+   "id": "skill-with-luck-tempering",
+   "name": "skill with luck",
+   "slot": "Chance or skill"
+  },
+  {
+   "id": "mostly-skill",
+   "name": "mostly skill",
+   "slot": "Chance or skill"
+  },
+  {
+   "id": "chance-read-as-a-sign",
+   "name": "chance read as a sign",
+   "slot": "Chance or skill"
+  },
+  {
+   "id": "attunement",
+   "name": "attunement",
+   "slot": "Chance or skill"
+  },
+  {
+   "id": "dice-tell-the-story",
+   "name": "dice tell the story",
+   "slot": "Chance or skill"
+  },
+  {
+   "id": "abstract",
+   "name": "abstract",
+   "slot": "Theme"
+  },
+  {
+   "id": "historical",
+   "name": "historical",
+   "slot": "Theme"
+  },
+  {
+   "id": "fantasy",
+   "name": "fantasy",
+   "slot": "Theme"
+  },
+  {
+   "id": "science-fiction",
+   "name": "science fiction",
+   "slot": "Theme"
+  },
+  {
+   "id": "everyday-life",
+   "name": "everyday life",
+   "slot": "Theme"
+  },
+  {
+   "id": "absurd",
+   "name": "absurd",
+   "slot": "Theme"
+  },
+  {
+   "id": "educational",
+   "name": "educational",
+   "slot": "Theme"
+  },
+  {
+   "id": "real-world-issue",
+   "name": "real-world issue",
+   "slot": "Theme"
+  },
+  {
+   "id": "poetic",
+   "name": "poetic",
+   "slot": "Theme"
+  },
+  {
+   "id": "ritual-or-sacred",
+   "name": "ritual or sacred",
+   "slot": "Theme"
+  },
+  {
+   "id": "mortality-and-loss",
+   "name": "mortality and loss",
+   "slot": "Theme"
+  },
+  {
+   "id": "war-and-conquest",
+   "name": "war and conquest",
+   "slot": "Theme"
+  },
+  {
+   "id": "full-information",
+   "name": "full information",
+   "slot": "Information visibility"
+  },
+  {
+   "id": "hidden-hands",
+   "name": "hidden hands",
+   "slot": "Information visibility"
+  },
+  {
+   "id": "hidden-identity",
+   "name": "hidden identity",
+   "slot": "Information visibility"
+  },
+  {
+   "id": "deduction",
+   "name": "deduction",
+   "slot": "Information visibility"
+  },
+  {
+   "id": "bluffing",
+   "name": "bluffing",
+   "slot": "Information visibility"
+  },
+  {
+   "id": "rules-you-discover",
+   "name": "rules you discover",
+   "slot": "Information visibility"
+  },
+  {
+   "id": "one-knows-cannot-say",
+   "name": "one knows, cannot say",
+   "slot": "Information visibility"
+  },
+  {
+   "id": "map-revealed-as-you-go",
+   "name": "map revealed as you go",
+   "slot": "Information visibility"
+  },
+  {
+   "id": "dummy-hand",
+   "name": "a hand laid face up",
+   "slot": "Information visibility"
+  },
+  {
+   "id": "secret-scores",
+   "name": "secret scores",
+   "slot": "Information visibility"
+  },
+  {
+   "id": "take-turns",
+   "name": "take turns",
+   "slot": "Timing"
+  },
+  {
+   "id": "everyone-at-once",
+   "name": "everyone at once",
+   "slot": "Timing"
+  },
+  {
+   "id": "no-turns",
+   "name": "no turns",
+   "slot": "Timing"
+  },
+  {
+   "id": "timed-turns",
+   "name": "timed turns",
+   "slot": "Timing"
+  },
+  {
+   "id": "real-time-span",
+   "name": "real-time span",
+   "slot": "Timing"
+  },
+  {
+   "id": "sedated",
+   "name": "sedated",
+   "slot": "Timing"
+  },
+  {
+   "id": "accelerated",
+   "name": "accelerated",
+   "slot": "Timing"
+  },
+  {
+   "id": "extra-turn",
+   "name": "extra turn",
+   "slot": "Timing"
+  },
+  {
+   "id": "staged-game",
+   "name": "staged game",
+   "slot": "Timing"
+  },
+  {
+   "id": "model-a-system",
+   "name": "model a system",
+   "slot": "Simulation"
+  },
+  {
+   "id": "stakeholder-roles",
+   "name": "stakeholder roles",
+   "slot": "Simulation"
+  },
+  {
+   "id": "shared-resource",
+   "name": "shared resource",
+   "slot": "Simulation"
+  },
+  {
+   "id": "delayed-effects",
+   "name": "delayed effects",
+   "slot": "Simulation"
+  },
+  {
+   "id": "try-a-rule",
+   "name": "try a rule",
+   "slot": "Simulation"
+  },
+  {
+   "id": "debrief",
+   "name": "debrief",
+   "slot": "Simulation"
+  },
+  {
+   "id": "irreversible-change",
+   "name": "irreversible change",
+   "slot": "Simulation"
+  },
+  {
+   "id": "rules-make-an-argument",
+   "name": "rules make an argument",
+   "slot": "Simulation"
+  },
+  {
+   "id": "stakes-outside-the-game",
+   "name": "stakes outside the game",
+   "slot": "Simulation"
+  },
+  {
+   "id": "points-stand-for-values",
+   "name": "points stand for values",
+   "slot": "Simulation"
+  },
+  {
+   "id": "rehearse-a-future",
+   "name": "rehearse a future",
+   "slot": "Simulation"
+  }
+ ]
+}
